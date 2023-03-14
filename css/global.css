@@ -47,6 +47,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	line-height: 1;
 }
+
+ul li{
+	list-style: none !important;
+}
 ol, ul {
 	list-style: none;
 }
@@ -6215,7 +6219,7 @@ a.icon_bar_dribbble span.b {
 	width: 210px;
 	padding: 25px;
 	position: relative
-}
+}/* 
 .google-map-contact-wrapper .get_in_touch:after {
 	content: "";
 	display: block;
@@ -6227,7 +6231,7 @@ a.icon_bar_dribbble span.b {
 	border-style: solid;
 	border-width: 30px 30px 0 0;
 	border-color: transparent
-}
+} */
 .google-map-contact-wrapper.style-bar {
 	position: static;
 	margin-left: 0!important;
