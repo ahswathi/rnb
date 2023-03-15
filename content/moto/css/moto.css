@@ -30,6 +30,12 @@
  		width: 100% !important;
  		clear: both;
  	}
+	 .services_sections_group{
+		 height: 2878px;
+	 }
+	 .posts_group.masonry.col-3 .post-item{
+		 width: 96%;
+	 }
  }
  .section[data-parallax="3d"] {
  	overflow: hidden;
@@ -1809,6 +1815,9 @@
  	}
  }
  @media only screen and (max-width: 479px) {
+	.posts_group.masonry.col-3 .post-item {
+		width: 96% !important;
+	}
  	body {
  		font-size: 13px;
  		line-height: 19px;
@@ -2424,6 +2433,7 @@
  	.the-icons.span3 {
  		width: 100%;
  	}
+	 
  }
  .ui-tabs .ui-tabs-nav li.ui-state-active a:after, body:not(.woocommerce-page) table tr:hover td, body:not(.woocommerce-page) table tr:hover td a {
  	color: #fff;

@@ -15574,6 +15574,12 @@ body.nice-scroll:not(.layout-boxed) {
 		display: none !important;
 	}
 }
+
+@media only screen and max-width: 375px {
+	.posts_group.masonry.col-3 .post-item {
+	   width: 96% !important;
+   }
+}
 @media (min-width: 768px) and (max-width: 991px) {
 	.hidden-sm {
 		display: none !important;
