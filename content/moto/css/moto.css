@@ -872,7 +872,7 @@
  		line-height: 50px !important;
  	}
  	#Top_bar.is-sticky #logo img:not(.svg) {
- 		max-height: 35px;
+ 		max-height: 58px;
  		width: auto !important;
  	}
  	#Top_bar.is-sticky #logo img.logo-main {
