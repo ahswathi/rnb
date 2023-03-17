@@ -219,7 +219,7 @@ function check_values() {
 	 if($j('.contactform #name').val()=='') {
 	 	var hasClass=$j('.contactform #name').parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('.contactform #name').parent().append('<label for="contactname" generated="true" class="error">Please enter your name</label>');
+	 	    $j('.contactform #name').parent().append('<label for="contactname" generated="true" class="error">Please enter a valid name</label>');
 			$j('.contactform #name').focus();
 			//return false;
 			errors++;
@@ -239,18 +239,7 @@ function check_values() {
 		else
 		$j('.contactform #email').parent().find(".error").remove();
 		
-		if($j('.contactform #phone').val()!=undefined)
-		if(validate_phone($j('.contactform #phone').val())==false ) {
-		var hasClass=$j('.contactform #phone').parent().find(".error").hasClass("error");
-	 	if(!hasClass)
-	 	    $j('.contactform #phone').parent().append('<label for="contactname" generated="true" class="error">Please enter a valid phone number</label>');	
-			$j('.contactform #phone').focus();
-			//return false;
-			errors++;
-		}
-		else
-		$j('.contactform #phone').parent().find(".error").remove();
-
+		
 		if($j('.contactform #subject').val()!=undefined)
 		if($j('.contactform #subject').val()==''){
 		var hasClass=$j('.contactform #subject').parent().find(".error").hasClass("error");
@@ -279,7 +268,7 @@ function check_values() {
 
 	if(errors==0) {
 			document.getElementById("submit").disabled=true;
-			document.getElementById("submit").value='Submitted';
+			document.getElementById("submit").value='Please Wait..';
 			sendRequest();
 	}
 }

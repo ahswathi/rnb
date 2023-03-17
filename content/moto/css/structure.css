@@ -5221,6 +5221,11 @@ html, body {
 	body {
 		min-width: 0;
 	}
+	
+	.emailtemplate{
+		width: 640px !important;
+	}
+	
 	#Wrapper {
 		width: 960px;
 	}
@@ -5276,6 +5281,13 @@ html, body {
 @media only screen and (min-width: 1240px) and (max-width: 1489px) {
 	body.header-open {
 		min-width: 0;
+	}
+	.emailtemplate{
+		width: 640px !important;
+		margin: 0 auto !important;
+	}
+	.inneremailtemplate{
+		width: 75% !important;
 	}
 	.header-open #Wrapper {
 		width: 960px;
