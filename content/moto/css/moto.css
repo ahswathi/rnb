@@ -31,7 +31,7 @@
  		clear: both;
  	}
 	 .services_sections_group{
-		 height: 2878px;
+		 height: 0px;
 	 }
 	 .posts_group.masonry.col-3 .post-item{
 		 width: 96%;
@@ -1832,6 +1832,14 @@
  	}
  }
  @media only screen and (max-width: 479px) {
+	 .query{
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;
+	 }
+	 .mtopquery{
+		 margin-top: 10px;
+	 }
 	.posts_group.masonry.col-3 .post-item {
 		width: 96% !important;
 	}

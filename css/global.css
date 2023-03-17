@@ -107,7 +107,7 @@ p {
 	margin: 0 0 15px;
 }
 em, i {
-	font-style: italic;
+	font-style: normal;
 }
 b, strong {
 	font-weight: 700;
@@ -2988,7 +2988,7 @@ ol {
 .column_column ul li, .column_helper ul li, .column_visual ul li, .mfn-acc ul li, .ui-tabs-panel ul li, .the_content_wrapper ul li, .post-excerpt ul li {
 	list-style: disc outside
 }
-.column_column ul li, .column_column ol li, .column_helper ul li, .column_helper ol li, .column_visual ul li, .column_visual ol li, .mfn-acc ul li, .mfn-acc ol li, .ui-tabs-panel ul li, .ui-tabs-panel ol li, .the_content_wrapper ul li, .the_content_wrapper ol li, .post-excerpt ul li, .post-excerpt ol li {
+.column_column ul li, .column_column ol li, .column_helper ul li, .column_helper ol li, .column_visual ul li, .column_visual ol li, .mfn-acc ul li, .mfn-acc ol li, .ui-tabs-panel ul li, .ui-tabs-panel ol li, .the_content_wrapper ul li, .the_content_wrapper ol li,  .post-excerpt ol li {
 	margin-bottom: 10px
 }
 .column_column ul li ul, .column_column ol li ol, .column_helper ul li ul, .column_helper ol li ol, .column_visual ul li ul, .column_visual ol li ol, .mfn-acc ul li ul, .mfn-acc ol li ol, .ui-tabs-panel ul li ul, .ui-tabs-panel ol li ol, .the_content_wrapper ul li ul, .the_content_wrapper ol li ol, .post-excerpt ul li ul, .post-excerpt ol li ol {
