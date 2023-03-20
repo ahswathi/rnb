@@ -187,6 +187,9 @@ iframe {
 .two-third.mcb-wrap {
 	width: 66.666%;
 }
+.contact-two-third{
+	width: 66.666%;
+}
 /* 2/3 */
 
 .three-fourth.mcb-wrap {
@@ -17468,6 +17471,9 @@ body.nice-scroll:not(.layout-boxed) {
 }
 .posts_group.masonry.col-3 .post-item {
 	width: 46%;
+}
+.gallerycard{
+	width: 31.333% !important;
 }
 .posts_group.masonry.col-4 .post-item {
 	width: 22.99%;

@@ -219,7 +219,7 @@ function check_values() {
 	 if($j('.contactform #name').val()=='') {
 	 	var hasClass=$j('.contactform #name').parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('.contactform #name').parent().append('<label for="contactname" generated="true" class="error">Please enter your name</label>');
+	 	    $j('.contactform #name').parent().append('<label for="contactname" generated="true" class="error">Please enter a name</label>');
 			$j('.contactform #name').focus();
 			//return false;
 			errors++;
