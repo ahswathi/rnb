@@ -36,6 +36,9 @@
 	 .posts_group.masonry.col-3 .post-item{
 		 width: 96%;
 	 }
+	 .abouttop{
+		 margin-top: 50px;
+	 }
  }
  .section[data-parallax="3d"] {
  	overflow: hidden;
@@ -1842,6 +1845,10 @@
 	 }
 	.posts_group.masonry.col-3 .post-item {
 		width: 96% !important;
+	}
+	
+	.abouttop{
+		margin-top: 50px !important;
 	}
  	body {
  		font-size: 13px;
