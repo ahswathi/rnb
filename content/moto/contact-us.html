@@ -33,7 +33,16 @@
     <link rel='stylesheet' href='css/structure.css'>
     <link rel='stylesheet' href='css/moto.css'>
     <link rel='stylesheet' href='css/custom.css'>
-
+    <script src="test.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+   <script type="text/javascript">
+      (function () {
+        emailjs.init("OoujERLMlQMX0SfSc");
+      })();
+    </script> 
 </head>
 
 <body class="style-simple layout-full-width nice-scroll-on button-stroke if-overlay no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menuo-no-borders menuo-right footer-copy-center mobile-tb-left mobile-mini-mr-ll">
@@ -121,7 +130,7 @@
                                             <div class="column_attr clearfix" style="padding:0 10% 0 0;">
                                                 <h3>Send a message</h3>
                                                 <p>
-                                                    <b>Aliquam ante</b> ipsum dolor sit amet augue justo facilisis eget, dolor. Duis mauris sed ipsum primis in nibh sagittis lectus eget magna. Sed sed fermentum mi, id lorem. Morbi non augue. Sed sit amet.
+                                                    <b>RNB</b> provides great selection of motorcycles, and their costs are fair and reasonable and provides services like fitting delivery box, hot grip, muffs, wireless charge, alarm, Tracker. Contact us if you have any request.
                                                 </p>
                                             </div>
                                         </div>
@@ -132,7 +141,7 @@
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix">
                                                 <div id="contactWrapper">
-                                                    <form class="contactform">
+                                                  <!--   <form class="contactform" onsubmit="sendMail()">
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
@@ -148,6 +157,65 @@
                                                         <div class="column one">
                                                             <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
                                                         </div>
+                                                    </form> -->
+                                                    <form id="rentalForm" class="form  my-5 py-5 w-50" style="background-color: #dedfe2;">
+                                                        <div class="d-flex">
+                                                            <div class="column one-second mb-0 ">
+                                                              <!--   <label for="fname" style="color:red; visibility: hidden;">Username</label> -->
+                                                            <input
+                                                              type="text"
+                                                              class="form-control"
+                                                              id="fname"
+                                                              placeholder="First name"
+                                                              required
+                                                              autocomplete="off"
+                                                            ><span id="errname" class="text-black-50"></span>
+                                                            </div>
+                                                            <div class="column one-second ">
+                                                                <!-- <label for="lname" style="color:red; visibility: hidden;">Username</label> -->
+                                                              <input
+                                                                type="text"
+                                                                class="form-control"
+                                                                id="lname"
+                                                                placeholder="Last name"
+                                                                required
+                                                                autocomplete="off"
+                                                              ><span id="errlname" class="text-danger"></span>
+                                                            </div>
+                                                       
+                                                            <div class="column one-second ">
+                                                               <!--  <label for="phone">Username</label> -->
+                                                                <input
+                                                                  type="text"
+                                                                  class="form-control"
+                                                                  id="phone"
+                                                                  placeholder="Your Phone"
+                                                                  required
+                                                                autocomplete="off"
+                                                                ><span id="errphone" class="text-danger"></span>
+                                                              </div>
+                                                            <div class="column one-second">
+                                                                <!-- <label for="email">Username</label> -->
+                                                            <input
+                                                              type="email"
+                                                              class="form-control"
+                                                              id="email"
+                                                              placeholder="Your email"
+                                                              required
+                                                            autocomplete="off"
+                                                            ><span id="erremail" class="text-danger"></span>
+                                                            </div>
+                                                         
+                                                        <div class=""> 
+                                                            <div class="column one">
+                                                            <textarea class="form-control" id="message" placeholder="Message" rows="3"></textarea>
+                                                            </div>
+                                                          </div>   
+                                                            <div class="column one">
+                                                              <input type="submit" value="Send A Message"  id="submit" >
+                                                            </div>
+                                                        </div>
+                                               
                                                     </form>
                                                 </div>
                                             </div>
@@ -162,7 +230,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column one column_image">
                                             <div class="image_frame image_item no_link scale-with-grid aligncenter no_border" style="padding-bottom: 30px;">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_moto_contact1.jpg" width="780" height="337" />
+                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/newcontact.jpg" width="780" height="337" />
                                                 </div>
                                             </div>
                                         </div>

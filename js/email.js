@@ -46,6 +46,8 @@ function sendRequest() {
 	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
 	}
 }
+
+  
 function sendRequest_booking() {
 	
 	var rnd = Math.random();
@@ -195,6 +197,10 @@ function check_values() {
 	var email = '';
 	var subject = '';
 	var body = '';
+
+	  
+    const serviceID = "service_gmss0g7";
+    const templateID = "template_i0lc322";
 	
 	if(typeof $j('.contactform #name').val() != "undefined" )
 	{
