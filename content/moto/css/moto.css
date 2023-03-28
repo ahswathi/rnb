@@ -1744,6 +1744,18 @@
  		font-size: 13px;
  		line-height: 19px;
  	}
+	 #Top_bar .top_bar_left {
+	 float: none !important;
+	}
+	#Top_bar .logo {
+		margin: 0 !important;
+	}
+	#Top_bar .logo .logoleft{
+		width: 132px !important;
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+		
+	}
  	#menu>ul>li>a, .action_button {
  		font-size: 13px;
  	}
@@ -2460,12 +2472,37 @@
  	.the-icons.span3 {
  		width: 50%;
  	}
+	 #Top_bar .top_bar_left {
+	 float: none !important;
+	}
+	#Top_bar .logo {
+		margin: 0 !important;
+	}
+	#Top_bar .logo .logoleft{
+		width: 132px !important;
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+		
+	}
+
  }
  @media only screen and max-width: 479px {
  	.the-icons.span3 {
  		width: 100%;
  	}
-	 
+	 #Top_bar .top_bar_left {
+		float: none !important;
+	   }
+	   #Top_bar .logo {
+		   margin: 0 !important;
+	   }
+	   #Top_bar .logo .logoleft{
+		   width: 132px !important;
+		   margin-top: 0px !important;
+		   margin-left: 0px !important;
+		   
+	   }
+   
  }
  .ui-tabs .ui-tabs-nav li.ui-state-active a:after, body:not(.woocommerce-page) table tr:hover td, body:not(.woocommerce-page) table tr:hover td a {
  	color: #fff;
