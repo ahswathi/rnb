@@ -15,30 +15,6 @@ function sendMail() {
   };
  
 
-  /* if (params.fname === '') {
-    return document.getElementById('errname').innerHTML = '*Enter Valid Name';
-  } else {
-     document.getElementById('errname').innerHTML = ''
-  }
-
-  if (params.lname === '') {
-    return document.getElementById('errlname').innerHTML = '*Enter Valid Name';
-  } else {
-     document.getElementById('errlname').innerHTML = ''
-  } */
-
-  /* if (params.email === '') {
-    document.getElementById('erremail').innerHTML = '*Enter Valid Email';
-  } else {
-     document.getElementById('erremail').innerHTML = ''
-  }
-
-  if (params.phone === '') {
-    document.getElementById('errphone').innerHTML = '*Enter Valid Number';
-  } else {
-     document.getElementById('errphone').innerHTML = ''
-  }
- */
   const serviceID = 'service_gmss0g7';
   const templateID = 'template_i0lc322';
 

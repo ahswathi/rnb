@@ -14,32 +14,7 @@ function sendMail2() {
       message: document.getElementById("message").value,
       
     };
-  /* 
-    if (params.fname === '') {
-      document.getElementById('errname').innerHTML = '*Enter Valid Name';
-    } else {
-       document.getElementById('errname').innerHTML = ''
-    }
   
-    if (params.reffered === '') {
-      document.getElementById('errreffered').innerHTML = '*Enter Valid Name';
-    } else {
-       document.getElementById('errreffered').innerHTML = ''
-    }
-  
-    if (params.email === '') {
-      document.getElementById('erremail').innerHTML = '*Enter Valid Email';
-    } else {
-       document.getElementById('erremail').innerHTML = ''
-    }
-  
-    if (params.phone === '') {
-      document.getElementById('errphone').innerHTML = '*Enter Valid Number';
-    } else {
-       document.getElementById('errphone').innerHTML = ''
-    }
-  
-    */
     const serviceID = "service_xoeg8dp";
     const templateID = "template_8lsqzbw";
   
